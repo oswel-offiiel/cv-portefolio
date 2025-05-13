@@ -1,0 +1,130 @@
+ <style>body {
+     background-color: rgb(223, 224, 225);
+
+ }
+
+ .cv {
+     font-family: 'Arial', sans-serif;
+     margin: 0;
+     padding: 0;
+     background: #fff;
+     color: #333;
+
+ }
+
+ .cv-container {
+     display: flex;
+     max-width: 1000px;
+     margin: 0 auto;
+     background: ;
+ }
+
+ .left-column {
+     width: 30%;
+     background-color: #3c3c3c;
+     color: white;
+     padding: 20px;
+     border-top-left-radius: 20px;
+ }
+
+ .cont-img {
+     width: 100%;
+     justify-content: center;
+     display: flex;
+ }
+
+ .cont-img img {
+     width: 80%;
+     border-radius: 10px;
+     box-shadow: #e8d9d9 2px 1px 17px 10px;
+ }
+
+ .left-column h3 {
+     border-bottom: 1px solid white;
+     padding-bottom: 5px;
+     margin-bottom: 10px;
+ }
+
+ .right-column {
+     width: 70%;
+     padding: 30px;
+     border-top-right-radius: 20px;
+     background-color: beige;
+ }
+
+ header h1 {
+     font-size: 30px;
+     margin-bottom: 5px;
+     text-align: center;
+
+ }
+
+ header h1 span {
+     font-weight: bold;
+ }
+
+ .subtitle {
+     font-size: 14px;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     color: gray;
+ }
+
+ .contact {
+     margin: 10px 0;
+     font-size: 14px;
+     color: #444;
+ }
+
+ section {
+     margin-top: 30px;
+ }
+
+ section h3 {
+     color: #333;
+     border-bottom: 1px solid #ccc;
+     padding-bottom: 5px;
+ }
+
+ .date {
+     float: right;
+     color: #666;
+     font-size: 13px;
+ }
+
+ /* css portfolio */
+
+ main {
+     padding: 30px;
+ }
+
+ .gallery-title {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .grid-container {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     gap: 20px;
+ }
+
+ .grid-item {
+     text-align: center;
+ }
+
+ .grid-item img {
+     width: 100%;
+     height: 200px;
+     object-fit: cover;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgb(255, 13, 13);
+ }
+
+ .caption {
+     margin-top: 8px;
+     font-weight: bold;
+     color: #e01a1a;
+ }
+
+ </style>
