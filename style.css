@@ -132,6 +132,13 @@ main {
     object-fit: fill;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgb(18, 236, 217);
+    transition: transform 0.5s ease-out;
+
+}
+
+.grid-item:hover img {
+    transform: scale(1.5);
+    box-shadow: 0 4px 8px rgb(236, 62, 18);
 }
 
 .caption {
